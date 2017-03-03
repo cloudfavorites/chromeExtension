@@ -1,0 +1,17 @@
+{
+     "manifest_version": 2,
+     "name": "云收藏",
+     "version": "0.0.3",
+     "background": { "scripts": ["background.js"] },
+     "permissions": ["tabs","http://*/*","https://*/*"],
+     "icons": {
+          "16": "icon.png",
+          "48": "favicon.png"
+      },
+     "browser_action": {
+        "name": "随时随地-智慧收藏",
+        "icons": ["icon.png"],
+        "default_icon": "icon.png"
+    }
+
+}
